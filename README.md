@@ -26,6 +26,9 @@ Este é um jogo da velha interativo onde dois jogadores podem competir, com a op
 4. **Jogue clicando nas células**: Cada jogador alterna entre marcar as células com "X" ou "O" até que um ganhe ou o tabuleiro se preencha (empate).
 5. **Finalização**: O jogo mostra o vencedor final após o término das rodadas.
 
+## Jogue agora mesmo com o link:
+https://jorgejmarttins.github.io/Jogo-da-Velha/
+
 ## Tecnologias Usadas
 
 - **HTML:** Estrutura básica do jogo.

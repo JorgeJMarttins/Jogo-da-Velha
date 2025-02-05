@@ -114,31 +114,40 @@
             width: 453px;
         }
 
-        /* Botão no canto superior esquerdo */
+        /* Botão "Voltar para o launcher" no canto superior esquerdo */
         .botao-canto {
             position: absolute;
             top: 10px;
             left: 10px;
-            padding: 10px 20px;
+            padding: 12px 24px;
             background-color: #e74c3c;
             color: white;
             border: none;
             border-radius: 5px;
             cursor: pointer;
+            font-size: 16px;
+            transition: 0.3s;
         }
 
         .botao-canto:hover {
             background-color: #c0392b;
+        }
+
+        .botao-canto a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .botao-canto a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 
 <body>
     <!-- Botão de voltar para o launcher -->
-    <button class="botao-canto"> 
-        <a href="https://jorgejmarttins.github.io/jogos-dos-bixos/" style="color: white; text-decoration: none;">
-            Voltar para o launcher
-        </a>
+    <button class="botao-canto">
+        <a href="https://jorgejmarttins.github.io/jogos-dos-bixos/">Voltar para o launcher</a>
     </button>
 
     <h1 id="titulo">Bem-Vindos ao Jogo da Velha</h1>

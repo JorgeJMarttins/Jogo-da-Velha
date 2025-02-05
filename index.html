@@ -15,7 +15,7 @@
             color: white;
             height: 100vh;
             margin: 0;
-            position: relative; /* Adicionado para facilitar o posicionamento absoluto */
+            position: relative;
         }
 
         #titulo {
@@ -29,7 +29,7 @@
         #container {
             display: flex;
             justify-content: space-between;
-            width: 90%; 
+            width: 90%;
             max-width: 1200px;
             height: 65%;
             background: rgba(255, 255, 255, 0.1);
@@ -83,7 +83,7 @@
         #tabela_jogo {
             border-collapse: collapse;
             width: 100%;
-            max-width: 450px; 
+            max-width: 450px;
             margin: 0 auto;
             background: white;
             border-radius: 10px;
@@ -93,7 +93,7 @@
         #tabela_jogo td {
             border: 3px solid #2c3e50;
             text-align: center;
-            font-size: 36px; 
+            font-size: 36px;
             width: 120px;
             height: 120px;
             transition: 0.3s;
@@ -134,7 +134,12 @@
 </head>
 
 <body>
-    <button class="botao-canto"> <a href="https://jorgejmarttins.github.io/jogos-dos-bixos/">Voltar para o launcher</a></button>
+    <!-- Botão de voltar para o launcher -->
+    <button class="botao-canto"> 
+        <a href="https://jorgejmarttins.github.io/jogos-dos-bixos/" style="color: white; text-decoration: none;">
+            Voltar para o launcher
+        </a>
+    </button>
 
     <h1 id="titulo">Bem-Vindos ao Jogo da Velha</h1>
 
